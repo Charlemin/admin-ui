@@ -18,10 +18,10 @@ group :mysql do
 end
 
 group :development do
-  gem 'rubocop', '0.40.0'
+  gem 'rubocop', '0.41.1'
 end
 
 group :test do
   gem 'rspec', '2.99.0'
-  gem 'selenium-webdriver', '2.53.0'
+  gem 'selenium-webdriver', '2.53.3'
 end
